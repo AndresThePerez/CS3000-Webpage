@@ -63,8 +63,30 @@
         Once a miner node finds a correct block, this block is broadcast to the entire network -- but it may not be accepted quite yet. A valid block can be broadcast and not accepted. Valid blocks are added on a probationary basis, while more blocks are added on top of them. Once a particular chain has reached a multiple of six, the chain of six are considered concrete and formally added to the chain by the network.[4] What this means is that there can be different forks of the blockchain going all at once, each containing different transactions, but if any overlap occurs between the blocks then they obviously cannot be added to the same chain. If a new valid chain is accepted, all of the forks (with their "valid") blocks are abandoned in favor of the longer chain.
        
          <img src="blockchainfork.png" class= "image1" alt="A block fork is orphaned in favor of the new longer chain.">   
-            <div id = "Block500kRef">[1] </div>
-            
+            <div id = "Block500kRef">The longer blockchain of Bn is accepted over the shorter fork of Gn [1] </div>
+        <p>
+        Bitcoin miners are incentivised to mine because of the coinbase transaction. Shown here in block #500000, the coinbase transaction allowed the miner to allocate roughly 16 Bitcoin to themselves.
+       </p>
+                <img src="coinbase%20transaction.png" class= "image1" alt="The miner is allowed to give themselves a predetermined amount of BTC">   
+            <div id = "Block500kRef">The miner collects the Bitcoin block reward for successfully creating a block. [2] </div>
+       <p>
+       The rewards for creating a block are finite, and halve every 210,000 blocks until eventually the block reward is essentially zero. The miners are incentivised to keep mining because on top of the block reward, each Bitcoin transaction also incurs a small transaction fee. [4] The block reward for block #500000 was actually 12.5 BTC, but the transaction fees added the total up to nearly 16 BTC. [2] This system of transaction fees ensures that even when the block reward is relatively microscopic, miners will be able to reap the rewards of creating valid blocks to keep the Bitcoin blockchain alive.
+        <p>  
+        It is worth noting that due to the exponentially large amount of potential values that must be input into the SHA-256 algorithm that it is unlikely that a single person using their home computer could mine successfully. Often times miners create large mining pools where a large collective of computers are combined and the rewards of block creation and validation are shared amongst all of the members of the pool.
+           
+       </p>  
+        <h3>Bitcoin Storage and Expenditures</h3>
+       
+       <p>
+        Since Bitcoin acquisition is tied to public and private key cryptography, storage of acquired Bitcoins is a relatively simple affair. It is possible to store Bitcoin on paper by simply writing down your private key. There are also wallet services online that will retain your private key for safe keeping. There also exist certain "hardware" wallets of essentially hardened non-flash USB drives that will keep the private key information safe.
+           
+        <p>
+        The simplicity also comes at a cost. If a private key is lost or stolen, all of the Bitcoin associated with that particular private key is lost as well. There is no Bank of Bitcoin to go to cry foul -- it is the user's own mistakes that can cost them their Bitcoin. 
+           
+           
+           
+           
+           
        </p>
        
        <h4>References</h4>
