@@ -22,14 +22,12 @@ h2 {
   font-size: 30px;
 }
 h3 {
-  font-size: 40px;
+  font-size: 35px;
 }
 p {
   font-size: 20px;
 }
-r {
-    font-size: 15px;
-}
+
 h4 {
     font-size: 20px;
 }
@@ -96,8 +94,4 @@ img {
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
     }
-}
-
-ol.r {
-    list-stye-type: lower-alpha;
 }
